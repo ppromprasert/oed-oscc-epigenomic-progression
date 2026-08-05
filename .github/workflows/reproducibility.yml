@@ -1,4 +1,4 @@
-name: reproducibility
+name: expanded-reproducibility
 on: [push, pull_request]
 jobs:
   validate:
@@ -6,7 +6,8 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
-        with: {python-version: "3.12"}
+        with:
+          python-version: "3.12"
       - run: pip install pandas
       - run: python scripts/python/validate_inputs.py
       - run: python scripts/python/privacy_check.py

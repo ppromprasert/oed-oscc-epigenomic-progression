@@ -1,0 +1,9 @@
+gene,probe,logFC,p_value,FDR,direction
+CDH1,cg01251360,-3.61,0.000737,0.252,Lower in progressors
+TFPI2,cg19103770,1.06,0.0059,0.943,Higher in progressors
+MGMT,cg25239156,1.4,0.0119,0.943,Higher in progressors
+ATG5,cg14790600,-0.91,0.0133,0.943,Lower in progressors
+MAP1LC3A,cg22744131,0.96,0.016,0.943,Higher in progressors
+EGFR,synthetic-public-label,-0.69,0.0212,0.943,Lower in progressors
+DAPK1,cg10926307,1.01,0.0238,0.943,Higher in progressors
+CDKN2B,cg06421800,-0.93,0.0297,0.943,Lower in progressors

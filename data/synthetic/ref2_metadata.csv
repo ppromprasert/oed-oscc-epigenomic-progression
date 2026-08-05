@@ -1,29 +1,29 @@
-sample_id,patient_id,progression,grade,baseline_definition
-SYN-OED-001,SYN-P001,Progressor,Mild,Ref2
-SYN-OED-002,SYN-P002,Progressor,Moderate,Ref2
-SYN-OED-003,SYN-P003,Progressor,Moderate,Ref2
-SYN-OED-004,SYN-P004,Progressor,Moderate,Ref2
-SYN-OED-005,SYN-P005,Progressor,Moderate,Ref2
-SYN-OED-006,SYN-P006,Progressor,Moderate,Ref2
-SYN-OED-007,SYN-P007,Progressor,Mild,Ref2
-SYN-OED-008,SYN-P008,Progressor,Moderate,Ref2
-SYN-OED-009,SYN-P009,Progressor,Mild,Ref2
-SYN-OED-010,SYN-P010,Progressor,Moderate,Ref2
-SYN-OED-011,SYN-P011,Progressor,Moderate,Ref2
-SYN-OED-012,SYN-P012,Progressor,Moderate,Ref2
-SYN-OED-013,SYN-P013,Progressor,Moderate,Ref2
-SYN-OED-014,SYN-P014,Progressor,Severe,Ref2
-SYN-OED-015,SYN-P015,Progressor,Moderate,Ref2
-SYN-OED-016,SYN-P016,Progressor,Mild,Ref2
-SYN-OED-017,SYN-P017,Progressor,Mild,Ref2
-SYN-OED-018,SYN-P018,Progressor,Moderate,Ref2
-SYN-OED-019,SYN-P019,Progressor,Moderate,Ref2
-SYN-OED-020,SYN-P020,Progressor,Moderate,Ref2
-SYN-OED-021,SYN-P021,Progressor,Mild,Ref2
-SYN-OED-022,SYN-P022,Progressor,Moderate,Ref2
-SYN-OED-023,SYN-P023,Progressor,Moderate,Ref2
-SYN-OED-024,SYN-P024,Progressor,Severe,Ref2
-SYN-OED-025,SYN-P025,Progressor,Mild,Ref2
-SYN-OED-026,SYN-P026,NonProgressor,Moderate,Ref2
-SYN-OED-027,SYN-P027,NonProgressor,Moderate,Ref2
-SYN-OED-028,SYN-P028,NonProgressor,Moderate,Ref2
+matrix_sample_id,patient_id,Progression,Grade,reference_definition,diagnosis_current,Outcome_original,race_analysis,sex_analysis,smoking_analysis
+SYN-REF2-01,SYN-BASE-01,Progressor,Mild,Ref2,Mild,Progressor,Black/African American,Female,Former/Current
+SYN-REF2-02,SYN-BASE-02,Progressor,Mild,Ref2,Mild,Progressor,Black/African American,Female,Former/Current
+SYN-REF2-03,SYN-BASE-03,Progressor,Mild,Ref2,Mild,Progressor,Other/Unknown,Male,Never
+SYN-REF2-04,SYN-BASE-04,Progressor,Mild,Ref2,Mild,Progressor,White,Female,Never
+SYN-REF2-05,SYN-BASE-05,Progressor,Mild,Ref2,Mild,Progressor,White,Male,Former/Current
+SYN-REF2-06,SYN-BASE-06,Progressor,Mild,Ref2,Mild,Progressor,White,Female,Never
+SYN-REF2-07,SYN-BASE-07,Progressor,Mild,Ref2,Mild,Progressor,Black/African American,Male,Former/Current
+SYN-REF2-08,SYN-BASE-08,Progressor,Mild,Ref2,Mild,Progressor,White,Female,Former/Current
+SYN-REF2-09,SYN-BASE-09,Progressor,Mild,Ref2,Mild,Progressor,Other/Unknown,Male,Former/Current
+SYN-REF2-10,SYN-BASE-10,Progressor,Mild,Ref2,Mild,Progressor,Black/African American,Female,Former/Current
+SYN-REF2-11,SYN-BASE-11,Progressor,Mild,Ref2,Mild,Progressor,White,Male,Former/Current
+SYN-REF2-12,SYN-BASE-12,Progressor,Mild,Ref2,Mild,Progressor,Black/African American,Male,Never
+SYN-REF2-13,SYN-BASE-13,Progressor,Mild,Ref2,Mild,Progressor,White,Male,Former/Current
+SYN-REF2-14,SYN-BASE-14,Progressor,Moderate,Ref2,Moderate,Progressor,White,Female,Former/Current
+SYN-REF2-15,SYN-BASE-15,Progressor,Moderate,Ref2,Moderate,Progressor,White,Male,Unknown
+SYN-REF2-16,SYN-BASE-16,Progressor,Moderate,Ref2,Moderate,Progressor,White,Male,Never
+SYN-REF2-17,SYN-BASE-17,Progressor,Moderate,Ref2,Moderate,Progressor,Black/African American,Male,Never
+SYN-REF2-18,SYN-BASE-18,Progressor,Moderate,Ref2,Moderate,Progressor,White,Male,Former/Current
+SYN-REF2-19,SYN-BASE-19,Progressor,Moderate,Ref2,Moderate,Progressor,White,Female,Unknown
+SYN-REF2-20,SYN-BASE-20,Progressor,Moderate,Ref2,Moderate,Progressor,White,Male,Former/Current
+SYN-REF2-21,SYN-BASE-21,Progressor,Moderate,Ref2,Moderate,Progressor,White,Male,Never
+SYN-REF2-22,SYN-BASE-22,Progressor,Moderate,Ref2,Moderate,Progressor,Black/African American,Male,Former/Current
+SYN-REF2-23,SYN-BASE-23,Progressor,Moderate,Ref2,Moderate,Progressor,Black/African American,Female,Former/Current
+SYN-REF2-24,SYN-BASE-24,Progressor,Severe,Ref2,Severe,Progressor,White,Female,Never
+SYN-REF2-25,SYN-BASE-25,Progressor,Severe,Ref2,Severe,Progressor,White,Female,Former/Current
+SYN-REF2-26,SYN-BASE-26,NonProgressor,Mild,Ref2,Mild,NonProgressor,White,Female,Former/Current
+SYN-REF2-27,SYN-BASE-27,NonProgressor,Moderate,Ref2,Moderate,NonProgressor,Black/African American,Female,Former/Current
+SYN-REF2-28,SYN-BASE-28,NonProgressor,Moderate,Ref2,Moderate,NonProgressor,White,Male,Never

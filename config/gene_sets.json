@@ -1,0 +1,106 @@
+{
+  "KNOWN_OSCC": [
+    "CDKN2A",
+    "CDKN2B",
+    "CDH1",
+    "MGMT",
+    "PAX1",
+    "ZNF583",
+    "ATG5",
+    "MAP1LC3A",
+    "DAPK1",
+    "TP63",
+    "TFPI2",
+    "SOX17",
+    "GATA4",
+    "EGFR",
+    "PTK6",
+    "AIM2",
+    "CCNA1",
+    "CCNA2",
+    "CCNB1",
+    "CCNB2"
+  ],
+  "COSMX": [
+    "CXCL9",
+    "CXCL10",
+    "CXCL11",
+    "IFI6",
+    "WARS1",
+    "GBP5",
+    "CD74",
+    "STAT1",
+    "IFI44",
+    "UBE2L6",
+    "RNF213",
+    "OAS3",
+    "IFITM3",
+    "BST2",
+    "MX1",
+    "PARP14",
+    "GBP1",
+    "EPSTI1",
+    "LY6E",
+    "LCP1",
+    "UBD",
+    "XAF1",
+    "C1QC",
+    "TAP1",
+    "LAPTM5",
+    "C1QA"
+  ],
+  "PRIORITY": [
+    "CDKN2A",
+    "CDH1",
+    "UBD",
+    "CXCL9",
+    "CXCL10",
+    "CXCL11",
+    "IFI6",
+    "RNF213",
+    "MX1",
+    "XAF1"
+  ],
+  "BIOLOGICAL_CONTEXT": {
+    "CELL_CYCLE_TUMOR_SUPPRESSION": [
+      "CDKN2A",
+      "CDKN2B",
+      "CCNA1",
+      "CCNA2",
+      "CCNB1",
+      "CCNB2"
+    ],
+    "CELL_ADHESION_EMT": [
+      "CDH1"
+    ],
+    "DNA_REPAIR": [
+      "MGMT"
+    ],
+    "AUTOPHAGY_CELL_DEATH": [
+      "ATG5",
+      "MAP1LC3A",
+      "DAPK1"
+    ],
+    "GROWTH_SIGNALING": [
+      "EGFR",
+      "PTK6"
+    ],
+    "IMMUNE_INTERFERON": [
+      "CXCL9",
+      "CXCL10",
+      "CXCL11",
+      "IFI6",
+      "STAT1",
+      "RNF213",
+      "MX1",
+      "XAF1",
+      "TAP1",
+      "GBP1",
+      "GBP5",
+      "OAS3",
+      "C1QA",
+      "C1QC",
+      "UBD"
+    ]
+  }
+}

@@ -1,20 +1,41 @@
 project: oed-oscc-epigenomic-progression
-public_data: synthetic_only
-primary_inferential_baseline: Ref2
-baseline_counts_real_project:
-  Ref1: {progressors: 22, nonprogressors: 1, use: descriptive}
-  Ref2: {progressors: 25, nonprogressors: 3, use: exploratory_inference}
-  Ref3: {progressors: 25, nonprogressors: 2, use: descriptive}
-methylation:
-  real_qc_samples: 92
-  real_retained_cpgs: 705131
-  statistical_scale: M_value
-  visualization_scale: beta
-  model: "~ progression + grade"
-  repeated_subject_method: limma_duplicateCorrelation_if_needed
-  multiple_testing: BH
-  fdr_threshold: 0.05
+platform: Illumina_EPIC
+real_project:
+  qc_passed_samples: 92
+  retained_cpgs: 705131
+  known_oscc_candidate_cpgs: 342
+  cosmx_candidate_cpgs: 355
+  cosmx_promoter_cpgs: 193
+baseline_definitions:
+  Ref1:
+    modeled_n: 23
+    progressors: 22
+    nonprogressors: 1
+    role: descriptive
+  Ref2:
+    modeled_n: 28
+    progressors: 25
+    nonprogressors: 3
+    role: exploratory_inference
+  Ref3:
+    modeled_n: 27
+    progressors: 25
+    nonprogressors: 2
+    role: descriptive
+primary_model:
+  scale: M_value
+  formula: "~ Progression + Grade"
+  repeated_patient_method: limma_duplicateCorrelation_when_detected
+  multiple_testing: BH_FDR
+visualization_scale: beta
 effect_size:
-  delta_beta_threshold: 0.10
+  small_delta_beta: 0.05
+  moderate_delta_beta: 0.10
+  large_delta_beta: 0.20
+  note: descriptive_prioritization_not_clinical_thresholds
 sensitivity:
+  wilcoxon_beta: true
+  fisher_z_cutoff: 1
   leave_one_nonprogressor_out: true
+  subgroup_kruskal: [diagnosis_current, Outcome_original, race_analysis, sex_analysis, smoking_analysis]
+  within_patient_trajectories: true

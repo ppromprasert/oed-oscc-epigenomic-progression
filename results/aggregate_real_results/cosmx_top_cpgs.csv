@@ -1,0 +1,6 @@
+gene,probe,logFC,p_value,FDR,progressor_mean_percent,nonprogressor_mean_percent,delta_methylation_percent,direction
+UBD,cg13206902,1.96,0.000132,0.047,87.75,66.21,21.54,Higher in progressors
+RNF213,cg12648893,0.9,0.0014,0.252,,,,Higher
+MX1,cg20451722,-1.18,0.0033,0.339,,,,Lower
+XAF1,cg10381036,0.76,0.0125,0.87,,,,Higher
+IFI6,cg06111087,0.81,0.0147,0.87,,,,Higher
