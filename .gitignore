@@ -1,0 +1,10 @@
+__pycache__/
+.DS_Store
+.Rhistory
+.Rproj.user/
+.env
+data/raw/
+data/private/
+*.idat
+*.rds
+*.RData

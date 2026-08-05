@@ -1,0 +1,20 @@
+project: oed-oscc-epigenomic-progression
+public_data: synthetic_only
+primary_inferential_baseline: Ref2
+baseline_counts_real_project:
+  Ref1: {progressors: 22, nonprogressors: 1, use: descriptive}
+  Ref2: {progressors: 25, nonprogressors: 3, use: exploratory_inference}
+  Ref3: {progressors: 25, nonprogressors: 2, use: descriptive}
+methylation:
+  real_qc_samples: 92
+  real_retained_cpgs: 705131
+  statistical_scale: M_value
+  visualization_scale: beta
+  model: "~ progression + grade"
+  repeated_subject_method: limma_duplicateCorrelation_if_needed
+  multiple_testing: BH
+  fdr_threshold: 0.05
+effect_size:
+  delta_beta_threshold: 0.10
+sensitivity:
+  leave_one_nonprogressor_out: true
