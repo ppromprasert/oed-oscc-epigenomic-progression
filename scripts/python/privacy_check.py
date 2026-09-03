@@ -1,7 +1,7 @@
 from pathlib import Path
 R=Path(__file__).resolve().parents[2]
 tokens=[
- "/phi_"+"data_01/","/Users/"+"pp761/","Box-"+"Box/Projects",
+ "/phi_data/","/Users/USERNAME/","Box/Projects",
  "RECORD_"+"ID",
 ]
 for p in R.rglob("*"):

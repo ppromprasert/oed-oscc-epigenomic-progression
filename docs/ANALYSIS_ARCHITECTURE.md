@@ -1,13 +1,17 @@
 # Analysis Architecture
 
-This project evaluates whether baseline oral epithelial dysplasia (OED) methylation differs between patients who later progress to oral squamous cell carcinoma (OSCC) and non-progressors.
+The project is organized around four analytical layers:
 
-The analysis has six linked layers:
-1. baseline/phenotype engineering;
-2. grade-adjusted CpG-level inference;
-3. beta-scale biological effect sizes and genomic-region context;
-4. known OSCC and CosMx/spatial candidate biology;
-5. robustness/sensitivity analysis;
-6. within-patient lesion trajectories.
+1. **Cohort engineering**
+   Resolve sample IDs, lesion chronology, and Ref1/Ref2/Ref3 baseline definitions.
 
-The project intentionally distinguishes formal FDR evidence from biological prioritization based on delta-beta magnitude, direction consistency, and sensitivity analyses.
+2. **Progression-associated methylation**
+   Fit a grade-adjusted limma model on M-values and summarize beta-value effect sizes.
+
+3. **Biological integration**
+   Evaluate known OSCC candidates, CDKN2A, spatial/CosMx genes, promoter context, and exposure-associated methylation signatures.
+
+4. **Robustness and longitudinal interpretation**
+   Use nonparametric tests, leave-one-NonProgressor-out checks, large-effect summaries, and specimen-level Mild-to-Severe trajectories.
+
+The primary inferential cohort is Ref2 because it contains 25 Progressors and 3 NonProgressors, whereas Ref1 and Ref3 have fewer NonProgressors.

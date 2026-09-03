@@ -1,6 +1,0 @@
-source("scripts/R/00_setup.R")
-known <- read_csv(file.path(DATA,"known_oscc_annotation.csv"),show_col_types=FALSE)
-cosmx <- read_csv(file.path(DATA,"cosmx_annotation.csv"),show_col_types=FALSE)
-stopifnot(nrow(known)==342,nrow(cosmx)==355)
-write_csv(known,file.path(OUT,"known_oscc_probe_map.csv"))
-write_csv(cosmx,file.path(OUT,"cosmx_probe_map.csv"))

@@ -1,0 +1,3 @@
+gene,probe,logFC,p_value,FDR,interpretation
+CDH1,cg01251360,-3.61,0.000737,0.252,Strongest nominal known-OSCC CpG; not FDR significant
+CDKN2A,gene-level summary,-0.75,0.0329,0.943,Broad lower methylation direction; no FDR-significant CpG

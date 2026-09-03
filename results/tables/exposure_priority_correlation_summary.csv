@@ -1,0 +1,8 @@
+exposure,gene,spearman_rho,p_value,FDR,n
+Cadmium,CXCL10,0.34,0.000906,0.0245,92
+Atrazine,CXCL10,-0.244,0.0189,0.171,92
+Heptachlor,CXCL10,-0.237,0.0229,0.171,92
+Cadmium,UBD,-0.233,0.0253,0.171,92
+Arsenic,CXCL10,-0.219,0.0357,0.193,92
+PAH / combustion,CXCL10,0.191,0.0685,0.308,92
+Smoking,UBD,-0.182,0.0827,0.319,92

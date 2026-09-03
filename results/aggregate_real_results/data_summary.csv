@@ -1,8 +1,0 @@
-metric,value
-QC-passed methylation samples,92
-CpGs retained after QC,705131
-Known OSCC candidate CpGs,342
-CosMx candidate CpGs,355
-CosMx promoter CpGs,193
-CosMx genes,26
-CosMx/methylation overlap patients,5

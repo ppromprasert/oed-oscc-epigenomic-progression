@@ -1,0 +1,11 @@
+metric,value
+QC-passed methylation samples,92
+Retained CpGs,705131
+Known OSCC candidate CpGs,342
+CosMx candidate CpGs,355
+Ref1 Progressors,22
+Ref1 NonProgressors,1
+Ref2 Progressors,25
+Ref2 NonProgressors,3
+Ref3 Progressors,25
+Ref3 NonProgressors,2

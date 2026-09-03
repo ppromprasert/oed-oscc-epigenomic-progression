@@ -1,5 +1,0 @@
-source("scripts/R/02_limma_ref2.R")
-dir.create(file.path(OUT,"figures"),showWarnings=FALSE)
-pdf(file.path(OUT,"figures","candidate_volcano.pdf"),7,5)
-plot(res$logFC,-log10(res$P.Value),pch=16,cex=.5,xlab="limma logFC (M-value)",ylab="-log10(P)")
-abline(h=-log10(.05),lty=2); dev.off()

@@ -1,0 +1,10 @@
+exposure,n_progressor,n_nonprogressor,progressor_median,nonprogressor_median,delta_median,wilcox_p,FDR,n_CpGs_used
+PAH / combustion,25,3,0.376,1.177,-0.801,0.0876,0.356,1
+Smoking,25,3,0.074,1.73,-1.656,0.0876,0.356,2
+PM2.5,25,3,-0.406,0.823,-1.23,0.137,0.356,1
+Heptachlor,25,3,-0.271,0.267,-0.538,0.158,0.356,2
+Malathion,25,3,-0.22,0.236,-0.455,0.414,0.621,1
+Cadmium,25,3,0.587,0.781,-0.194,0.458,0.621,3
+Metolachlor,25,3,0.45,-1.282,1.731,0.504,0.621,3
+Arsenic,25,3,0.245,-0.032,0.277,0.552,0.621,12
+Atrazine,25,3,-0.22,0.531,-0.752,0.824,0.824,1

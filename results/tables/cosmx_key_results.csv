@@ -1,0 +1,4 @@
+gene,probe,logFC,p_value,FDR,interpretation
+UBD,cg13206902,1.957,0.000132,0.047,FDR-significant candidate CpG
+RNF213,cg12648893,0.896,0.00142,0.252,Nominal exploratory signal
+MX1,cg20451722,-1.175,0.00326,0.339,Nominal exploratory signal

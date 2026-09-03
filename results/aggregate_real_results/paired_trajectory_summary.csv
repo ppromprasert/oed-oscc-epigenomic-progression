@@ -1,9 +1,0 @@
-gene,n_pairs,median_delta_beta
-CDKN2A,1,0.02
-CDH1,1,0.006
-UBD,1,0.012
-CXCL10,1,-0.025
-IFI6,1,-0.021
-RNF213,1,-0.009
-MX1,1,0.016
-XAF1,1,-0.027
