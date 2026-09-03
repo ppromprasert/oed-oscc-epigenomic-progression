@@ -140,6 +140,36 @@ Across the three trajectories:
 
 Because n = 3, these patterns are used for hypothesis generation rather than biomarker claims.
 
+
+## Selected portfolio figures
+
+These figures are privacy-safe aggregate summaries of the completed analysis and contain no patient-level methylation or clinical data.
+
+### Baseline cohort feasibility
+
+![OED baseline cohort imbalance](results/figures/baseline_cohort_imbalance.png)
+
+Ref2 provides the primary exploratory inferential cohort but remains strongly imbalanced at 25 Progressors versus 3 NonProgressors.
+
+### Progression-associated candidate CpGs
+
+![Selected progression-associated CpGs](results/figures/selected_candidate_cpgs.png)
+
+UBD cg13206902 is the strongest FDR-supported candidate result. CDH1, RNF213, MX1, and other candidate loci remain exploratory.
+
+### Exposure-associated methylation signatures
+
+![Exposure-associated methylation scores](results/figures/ref2_exposure_effect_significance.png)
+
+None of the tested exposure-associated methylation signatures reaches nominal or FDR significance in Ref2. These scores represent epigenetic exposure-associated patterns rather than direct exposure measurements.
+
+### Exposure-to-promoter relationships
+
+![Exposure and priority promoter correlations](results/figures/exposure_priority_promoter_correlations.png)
+
+Full-cohort analyses evaluate whether exposure-associated methylation scores covary with promoter methylation of prioritized spatial and immune-related genes.
+
+
 ## Repository structure
 
 ```text
@@ -189,3 +219,9 @@ The strongest formal candidate result is UBD cg13206902. The broader known-OSCC,
 ## Privacy
 
 Restricted patient-level clinical and methylation data are not distributed here. Public code is designed around synthetic, public, aggregate, or otherwise approved inputs.
+
+
+## License and reuse
+
+This repository is shared for research transparency and portfolio demonstration. No open-source license is currently granted for reuse, redistribution, or derivative works. Please contact the author regarding reuse of code or materials.
+
